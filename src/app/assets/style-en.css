@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "MontserratAlternates";
+  src: url(../assets/fonts/MontserratAlternates/MontserratAlternates-Regular.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+  font-family: "MontserratAlternates";
+  width: 100%;
+}

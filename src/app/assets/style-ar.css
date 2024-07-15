@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "Bukra";
+  src: url(../assets/fonts/Bukra/29ltbukraregular.otf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+[lang="ar"] body {
+  font-family: "Bukra";
+  width: 100%;
+}
+
+[lang="ar"] .about-us-img-container {
+  position: absolute;
+  top: 12%;
+  left: 0;
+}
+
+[lang="ar"] .about-us-img-container img:nth-child(1) {
+  position: absolute;
+  top: 15%;
+  right: 0;
+  /* width: 100px; */
+  /* height: auto; */
+  position: absolute;
+  top: 15%;
+  right: 0;
+  /* width: 100px; */
+  /* height: auto; */
+}
+
+[lang="ar"] .about-us-img-container img:nth-child(2) {
+  top: 20% !important;
+  left: 50px;
+  /* width: 100px;
+height: auto; */
+  top: 20% !important;
+  left: 50px;
+  /* width: 100px;
+  height: auto; */
+}
+
+[lang="ar"] .milestone-section .milestones .milestone-index {
+  text-align: left;
+}
+
+[lang="ar"]
+  .milestone-section
+  .milestones
+  .milestone:nth-child(odd)
+  .milestone-index {
+  text-align: right;
+}
+
+[lang="ar"] .about-us-container .about-us-img .underlay {
+  right: unset;
+  left: 0;
+  border-radius: var(--Number-n-40, 0px) var(--Number-n-00, 40px)
+    var(--Number-n-00, 40px) var(--Number-n-40, 0px);
+  background: var(
+    --Gradient-2,
+    linear-gradient(
+      135deg,
+      #41b9c0 -48%,
+      #417bc0 1.7%,
+      #41b9c0 51.14%,
+      #f9e537 127%
+    )
+  );
+}
+
+[lang="ar"] .blog-btn img {
+  transform: rotate(-180deg);
+}
+
+[lang="ar"] .accordion__body button::after {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+[lang="ar"] .btn-our-services img {
+  transform: rotate(-90deg);
+}
+
+[lang="ar"] .btn-contact-us img {
+  transform: rotate(-90deg);
+}
+
+[lang="ar"] .footer .footer-info > div:nth-child(4) button:hover > img {
+  transform: translate(-5px, -8px) rotate(-90deg);
+}
+
+[lang="ar"] .about-us-container .about-us-img img {
+  transform: scaleX(-1);
+}
